@@ -141,6 +141,11 @@ public class CreateBundleTool : EditorWindow
                 EditorGUILayout.HelpBox("The selected GameObject has scripts attached. Scripts cannot be included in AssetBundles.", MessageType.Error);
             }
         }
+        else
+        {
+            _ModPackage.AssetName = string.Empty;
+            _ModPackage.BundleName = string.Empty;
+        }
 
         // Display asset name (disabled field)
         EditorGUI.BeginDisabledGroup(true);
