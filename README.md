@@ -49,7 +49,7 @@ A JSON file will be created in your mod folder, containing configuration and dis
 - **Description**: Provide a description of the mod.
 - **Author Name**: Enter the author's name or nickname.
 - **Version**: Specify the version of the mod.
-- **Unity Version**: Indicate the Unity version compatible with the game you want to mod.
+- **Unity Version**: The the Unity version of the game you want to mod.
 
 ## Apply Mod
 
