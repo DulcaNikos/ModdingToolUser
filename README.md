@@ -6,6 +6,7 @@
 - [Editor Window Overview](#editor-window-overview)
   - [First Tab: Mod Creation](#first-tab-mod-creation)
   - [Second Tab: Mod Details](#second-tab-mod-details)
+- [Apply Mod](#apply-mod)
 - [Asset Hats](#asset-hats)
 
 ## Overview
@@ -49,6 +50,10 @@ A JSON file will be created in your mod folder, containing configuration and dis
 - **Author Name**: Enter the author's name or nickname.
 - **Version**: Specify the version of the mod.
 - **Unity Version**: Indicate the Unity version compatible with the game you want to mod.
+
+## Apply Mod
+
+After creating the mod, copy it and place it into the AssetBundles folder of the game. This folder is located inside the (GameName)_Data folder. If the AssetBundles folder doesn't exist, it will be created automatically the first time you start the game.
 
 ## Asset Hats
 
